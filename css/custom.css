@@ -16,6 +16,10 @@
   background: #f28f20;
 }
 
+.menu-ul-element ul>li>a:hover~.nav__catalog {
+  background: #f8b21c;
+}
+
 .site-nav li>ul>li>a:hover {
   background: #f8b21c;
 }
@@ -45,6 +49,10 @@ input.search-form__input {
 .nav__catalog {
   background: #e75325;
 }
+
+/* .nav__catalog:hover {
+  background-color: #F9B330;
+} */
 
 .car_select_items,
 .cars_select_button .button_text {
@@ -90,6 +98,12 @@ input.search-form__input {
 
 .menu-ul-element ul:hover~.nav__catalog {
   background: none;
+
+}
+
+.menu-ul-element:hover,
+.menu-ul-element:hover>.nav__catalog {
+  background-color: #F9B330;
 }
 
 .box_back #slide_window.callback2,
