@@ -72,7 +72,7 @@ body.part_select .content__title {
     border-radius: 50px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
-    background: #fff url(../img/info-ico_blue.svg) center center no-repeat;
+    background: #fff url(img/info-ico_blue.svg) center center no-repeat;
 }
 
 .info p {

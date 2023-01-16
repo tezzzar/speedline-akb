@@ -157,14 +157,14 @@ input[type=checkbox]:checked + .checkbox__label {
 	color: #202020;
 }
 input[type=checkbox]:checked + .checkbox__label:before {
-	background: url(../img/checked.svg) center center no-repeat;
+	background: url(img/checked.svg) center center no-repeat;
 	background-size: 18px;
 }
 input[type=checkbox]:checked + .checkbox__label.checkbox_small, input[type=radio]:checked + .checkbox__label.checkbox_small {
 	font-weight: bold;
 }
 input[type=checkbox]:checked + .checkbox__label.checkbox_small:before, input[type=radio]:checked + .checkbox__label.checkbox_small:before {
-	background: url(../img/checked.svg) center center no-repeat;
+	background: url(img/checked.svg) center center no-repeat;
 	background-size: 12px;
 }
 
