@@ -110,7 +110,7 @@ input.search-form__input {
 .menu-ul li.li-switch-opened,
 .catalog-carousel .owl-dot,
 .form__button {
-  background-color: #e75325 !important;
+  background-color: #e75325;
 }
 
 #clear_form_search_auto {
