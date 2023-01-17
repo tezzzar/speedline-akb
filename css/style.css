@@ -998,6 +998,7 @@ input.quantity-form__input {
 
   .owl-carousel .owl-item>img {
     background-size: cover;
+    width: calc(100rem - 50%);
   }
 
 
@@ -1314,7 +1315,7 @@ input.quantity-form__input {
 
   .owl-carousel .owl-item img {
     display: inline-block;
-    width: 50%;
+    width: calc(100rem - 50%);
     /* height: auto; */
   }
 
@@ -5833,8 +5834,6 @@ button.search-form__button {
   overflow: hidden;
   margin: 0 -15px;
 }
-
-.catalog-carousel {}
 
 .catalog-carousel .owl-nav {
   position: absolute;
