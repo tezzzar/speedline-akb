@@ -3825,7 +3825,7 @@ button.search-form__button {
 .site-nav>ul>li>ul>li {
   text-align: left;
   line-height: 1.2;
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
   letter-spacing: 0.5px;
 }
 
