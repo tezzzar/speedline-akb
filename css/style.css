@@ -996,6 +996,11 @@ input.quantity-form__input {
 
 @media (max-width: 460px) {
 
+  .owl-carousel .owl-item>img {
+    background-size: cover;
+  }
+
+
   .modal-footer .continue-button,
   .modal-footer .form__button {
     min-width: 1px;
@@ -1307,6 +1312,11 @@ input.quantity-form__input {
     font-size: 1.4rem;
   }
 
+  .owl-carousel .owl-item img {
+    display: inline-block;
+    width: 50%;
+    /* height: auto; */
+  }
 
 }
 
@@ -4521,7 +4531,7 @@ button.search-form__button {
   .slideshow .owl-prev,
   .slideshow .owl-next {
     left: 20px;
-    bottom: 15px;
+    bottom: 49px;
     width: 20px;
     height: 20px;
   }
@@ -4553,6 +4563,7 @@ button.search-form__button {
 @media (max-width: 400px) {
   .slide__title {
     top: 15px;
+    max-width: 315px;
   }
 }
 
