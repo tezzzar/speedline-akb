@@ -3971,9 +3971,8 @@ button.search-form__button {
 }
 
 .slideshow .owl-dots {
-  position: absolute;
-  bottom: 0px;
-  height: 48px;
+  position: relative;
+  bottom: 29px;
   z-index: 200;
   text-align: center;
   width: 100%;
