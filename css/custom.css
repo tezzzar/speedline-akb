@@ -136,3 +136,9 @@ input.search-form__input {
 .search-form .ui-selectmenu-button {
   display: none;
 }
+
+
+.owl-carousel .owl-stage {
+  position: relative;
+  top: -0.5px;
+}

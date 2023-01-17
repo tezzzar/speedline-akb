@@ -3834,6 +3834,7 @@ button.search-form__button {
   display: block;
   padding: 15px 25px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .site-nav li>ul>li>a:hover {
