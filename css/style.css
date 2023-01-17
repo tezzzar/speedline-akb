@@ -3639,7 +3639,7 @@ button.search-form__button {
     height: 33px;
     color: #000;
     z-index: 50;
-    background: url(../img/user-icon-big.png) left center no-repeat;
+    /* background: url(../img/user-icon-big.png) left center no-repeat; */
 
   }
 
