@@ -5864,7 +5864,7 @@ button.search-form__button {
   position: absolute;
   z-index: 15;
   left: 10px;
-  top: 9px;
+  top: 8px;
   border-top: 2px solid #fff;
   border-right: 2px solid #fff;
   transform: rotate(220deg);
