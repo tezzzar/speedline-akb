@@ -143,3 +143,21 @@ input.search-form__input {
   top: -0.5px;
   margin-bottom: -36px;
 }
+
+.slide__link>img {
+  margin-bottom: -1.5px;
+}
+
+@media (max-width: 375px) {
+  .topbar__phones {
+    left: auto;
+    right: 10px;
+    background: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .topbar__phones .phone a {
+    font-size: 10px;
+  }
+}
