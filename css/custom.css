@@ -32,9 +32,9 @@
   background: #f28f20;
 }
 
-.li-switch-opened {
+/* .li-switch-opened {
   background: #f28f20 !important;
-}
+} */
 
 input.search-form__input {
   border: 1px solid #b43103;
