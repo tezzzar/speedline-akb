@@ -161,3 +161,15 @@ input.search-form__input {
     font-size: 10px;
   }
 }
+
+@media (max-width: 425px) {
+  .catalog-item__buy {
+    background-position: 20% center;
+  }
+}
+
+@media (max-width: 320px) {
+  .catalog-item__buy {
+    background-position: 15% center;
+  }
+}

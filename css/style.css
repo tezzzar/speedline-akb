@@ -6376,7 +6376,7 @@ input[type=checkbox]:checked + .option__label, input[type=radio]:checked + .opti
     height: 50px;
     padding: 15px 0 0 0;
     background-image: url(../img/cart-small-ico.svg);
-    background-position: 26% center;
+    background-position: 35% center;
     text-indent: 33px;
     left: 15px;
     right: 15px;
