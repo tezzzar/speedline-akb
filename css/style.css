@@ -6521,14 +6521,14 @@ input[type=checkbox]:checked + .option__label, input[type=radio]:checked + .opti
 
   .catalog-carousel .owl-prev:before,
   .catalog-carousel .owl-next:before {
-    left: 7px;
-    top: 6px;
+    left: 6.5px;
+    top: 5px;
     width: 6px;
     height: 6px;
   }
 
   .catalog-carousel .owl-next:before {
-    left: 5px;
+    left: 4px;
   }
 
   .catalog-categories {
