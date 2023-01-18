@@ -32,6 +32,10 @@
   background: #f28f20;
 }
 
+.li-switch-opened {
+  background: #f28f20 !important;
+}
+
 input.search-form__input {
   border: 1px solid #b43103;
   background: #b43103;
@@ -142,10 +146,6 @@ input.search-form__input {
   position: relative;
   top: -0.5px;
   margin-bottom: -36px;
-}
-
-.slide__link>img {
-  margin-bottom: -1.5px;
 }
 
 @media (max-width: 375px) {

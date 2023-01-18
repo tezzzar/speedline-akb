@@ -1535,9 +1535,9 @@ input.quantity-form__input {
 
 
 
-  .menu-ul li.li-switch-opened {
+  /* .menu-ul li.li-switch-opened {
     background-color: #0d646f !important;
-  }
+  } */
 
   .menu-ul li.li-switch-closed:hover,
   .menu-ul li.li-switch-opened li:hover {
@@ -3761,7 +3761,7 @@ button.search-form__button {
   line-height: 1;
   position: relative;
   z-index: 300;
-  background: #03727e;
+  background: #F3912D;
   /*height: 55px;	
 	max-width: 1392px;*/
   width: 100%;
@@ -3771,7 +3771,7 @@ button.search-form__button {
 
 .site-nav:before,
 .site-nav:after {
-  background: #03727e;
+  background: #F3912D;
   left: -2000px;
 }
 
@@ -3814,7 +3814,7 @@ button.search-form__button {
 }
 
 .site-nav>ul>li:hover {
-  background: #05535d;
+  background: #F3912D;
 }
 
 .site-nav>ul>li>ul {
@@ -3826,7 +3826,7 @@ button.search-form__button {
   left: 0px;
   top: 55px;
   width: 320px;
-  background: #05535d;
+  background: #F3912D;
 }
 
 .site-nav>ul>li:hover>ul {
@@ -6690,7 +6690,7 @@ input[type=checkbox]:checked + .option__label, input[type=radio]:checked + .opti
   display: block;
   clear: both;
   font-size: 2.8rem;
-  margin: 35px 0 15px 0;
+  margin: 50px 0 15px 0;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
