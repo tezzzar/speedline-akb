@@ -173,3 +173,8 @@ input.search-form__input {
     background-position: 15% center;
   }
 }
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
