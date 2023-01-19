@@ -505,7 +505,6 @@ html.remodal-is-locked {
   background: #2b2e38;
 }
 
-.modal-header {}
 
 .modal--title {
   display: block;
@@ -521,7 +520,7 @@ html.remodal-is-locked {
 
 }
 
-.modal-content {}
+
 
 .modal-footer {
   border-top: 0px solid #ccc;
@@ -599,7 +598,6 @@ html.remodal-is-locked {
   max-height: 82px;
 }
 
-.cart-td__name {}
 
 .cart-td__name a {
   display: inline-block;
@@ -625,7 +623,6 @@ html.remodal-is-locked {
   font-weight: normal;
 }
 
-.cart-td__quantity {}
 
 .quantity-form {
   position: relative;
@@ -698,7 +695,6 @@ input.quantity-form__input {
   font-weight: bold;
 }
 
-.cart-td__delete {}
 
 .delete-button {
   position: relative;
@@ -788,8 +784,6 @@ input.quantity-form__input {
     max-height: 78px;
   }
 
-  .cart-td__name {}
-
   .cart-td__name a {
     font-size: 1.8rem;
   }
@@ -859,7 +853,6 @@ input.quantity-form__input {
     max-height: 68px;
   }
 
-  .cart-td__name {}
 
   .cart-td__name a {
     font-size: 1.6rem;
@@ -1121,7 +1114,6 @@ input.quantity-form__input {
   padding: 0 5px 0 0;
 }
 
-.selection-step__checkboxes .cell_checkbox {}
 
 .checkbox-button_cat {
   height: 70px !important;
@@ -1346,7 +1338,7 @@ input.quantity-form__input {
 .catalog-item .product__reviews {
   display: inline-block;
   width: 100%;
-  float: left;
+  /* float: left; */
   margin: 10px 0 0 0;
 }
 
@@ -2419,7 +2411,6 @@ button {
   margin-bottom: 0px;
 }
 
-.form__cell {}
 
 .form__cell.cell_half {
   float: left;
@@ -2590,7 +2581,7 @@ a.button {
   color: #E75329;
   cursor: pointer;
   text-align: center;
-  line-height: 48px;
+  line-height: 45px;
   border: 2px solid #E75329;
 }
 
@@ -2615,7 +2606,6 @@ input:checked+.check-button {
   border-color: #117a85;
 }
 
-.check-button .check-button__default {}
 
 .check-button .check-button__check {
   display: none;
@@ -3173,7 +3163,7 @@ input:checked+.checkbox-button .marker {
 
 .route__label {
   display: inline-block;
-  float: left;
+  /* float: left; */
   width: 65px;
   color: #888;
 }
@@ -3305,7 +3295,6 @@ input:checked+.checkbox-button .marker {
   text-decoration: underline;
 }
 
-.topbar__nav {}
 
 .topbar__nav li {
   display: inline-block;
@@ -4632,9 +4621,6 @@ button.search-form__button {
   margin-bottom: 0px;
 }
 
-.article-prw__title {}
-
-.article-prw p {}
 
 .article-prw__more {
   z-index: 20 !important;
@@ -4799,9 +4785,6 @@ button.search-form__button {
   max-width: 100%;
 }
 
-.news-text-container .image__caption {}
-
-.image-with-caption {}
 
 .image__caption {
   display: block;
@@ -4857,7 +4840,6 @@ button.search-form__button {
   color: #f5921d;
 }
 
-.text {}
 
 .table-wrap {
   overflow: auto;
@@ -5055,7 +5037,6 @@ button.search-form__button {
   width: 150px !important;
 }
 
-.table {}
 
 .table_alco th:first-child {
   text-align: center;
@@ -5577,7 +5558,6 @@ button.search-form__button {
   text-decoration: line-through;
 }
 
-.side__news-list {}
 
 .side-news {
   margin: 30px 0 0 0;
@@ -5727,7 +5707,6 @@ button.search-form__button {
     display: block;
   }
 
-  .sidebar .catalog-item__inner {}
 
   .sidebar .catalog-item__label {
     left: 20px;
@@ -5754,7 +5733,6 @@ button.search-form__button {
 @media (max-width: 800px) {}
 
 @media (max-width: 780px) {
-  .sidebar .catalog-item__inner {}
 
   .sidebar .article-prw {
     width: 50%;
@@ -5947,7 +5925,6 @@ button.search-form__button {
   padding: 30px 20px 15px 20px;
 }
 
-.catalog-item.with-options .catalog-item__inner {}
 
 .catalog-item__link {
 
@@ -6249,7 +6226,6 @@ input[type=checkbox]:checked + .option__label, input[type=radio]:checked + .opti
   padding: 30px 20px 15px 20px;
 }
 
-.catalog-item__link {}
 
 .catalog-category__img {
   margin: 0px;
@@ -6868,7 +6844,7 @@ hr {
   vertical-align: middle;
   padding: 5px;
   text-align: center;
-  background: #98bbc3;
+  background: #f3912d6b;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -7332,11 +7308,11 @@ input.quantity-form__input {
 }
 
 .fav-button {
-  background-image: url("../img/fav-green-ico.svg");
+  background-image: url("../img/fav-yellow-ico.png");
 }
 
 .compare-button {
-  background-image: url("../img/compare-green-ico.svg");
+  background-image: url("../img/compare-yellow-ico.png");
 }
 
 .product__seller {

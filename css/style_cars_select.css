@@ -494,7 +494,6 @@ html.remodal-is-locked {
   background: #2b2e38;
 }
 
-.modal-header {}
 
 .modal--title {
   display: block;
@@ -510,7 +509,6 @@ html.remodal-is-locked {
 
 }
 
-.modal-content {}
 
 .modal-footer {
   border-top: 0px solid #ccc;
@@ -576,7 +574,6 @@ html.remodal-is-locked {
 Коррекция окна выбора авто
 */
 
-.cars_select_modal {}
 
 .cars_select_modal .selection-step .checkbox-button {
   display: table !important;

@@ -199,3 +199,7 @@ input.search-form__input {
 .owl-carousel .owl-nav.disabled {
   display: block;
 }
+
+.wrapper .catalog-filters-br a {
+  background-color: #F2902D;
+}
