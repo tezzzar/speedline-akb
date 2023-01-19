@@ -38,15 +38,16 @@
 
 .cars_select_button .button_text {
   display: inline-block;
-  width: 100%;
-  background: #5597a1;
+  width: 99%;
+  /* background: #5597a1; */
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   cursor: pointer;
   line-height: 50px;
-  padding: 0px 20px;
+  padding: 0px 15px;
   height: 50px;
+  margin: 0 5px;
 }
 
 

@@ -154,11 +154,20 @@ input.search-form__input {
     right: 10px;
     background: none;
   }
+
+  .cars_select_button .button_text {
+    margin: 0 2px !important;
+  }
 }
 
 @media (max-width: 320px) {
   .topbar__phones .phone a {
     font-size: 10px;
+  }
+
+  .cars_select_button .button_text {
+    width: 99% !important;
+    margin: 0 1px !important;
   }
 }
 
@@ -166,11 +175,23 @@ input.search-form__input {
   .catalog-item__buy {
     background-position: 20% center;
   }
+
+  .cars_select_button .button_text {
+    margin: 0 2px !important;
+  }
 }
 
 @media (max-width: 320px) {
   .catalog-item__buy {
     background-position: 15% center;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .cars_select_button .button_text {
+    width: calc(100% - 5px) !important;
+    margin: 0 2px !important;
   }
 }
 

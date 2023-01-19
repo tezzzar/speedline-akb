@@ -2587,11 +2587,11 @@ a.button {
   padding: 0 10px;
   font-style: normal;
   font-weight: bold;
-  color: #03727e;
+  color: #E75329;
   cursor: pointer;
   text-align: center;
   line-height: 48px;
-  border: 2px solid #03727e;
+  border: 2px solid #E75329;
 }
 
 .check-button {
@@ -8678,7 +8678,7 @@ li.catalog-filters-element.li-switch-closed {
   display: inline-block;
   width: 22px;
   height: 23px;
-  background: url(../img/filter.svg) center center no-repeat;
+  background: url(../img/filter.png) center center no-repeat;
 }
 
 .open__ico.filterget:before {
@@ -8697,7 +8697,7 @@ li.catalog-filters-element.li-switch-closed {
   position: fixed;
   bottom: 0px;
   height: 55px;
-  background-color: #03727e;
+  background-color: #F2902D;
   z-index: 500;
 }
 
