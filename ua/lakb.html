@@ -1,0 +1,2814 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width">
+  <meta name="theme-color" content="#03727e">
+  <title>Speedline</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico.jpg">
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!--<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">-->
+  <link href="/css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+  <link href="/css/scroll.css" rel="stylesheet" type="text/css" />
+  <link href="/css/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="/css/custom.css" rel="stylesheet" type="text/css" />
+  <link href="/css/style_cars_select.css" rel="stylesheet" type="text/css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NHS156GVG9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NHS156GVG9');
+    gtag('config', 'UA-210393537-1');
+  </script>
+  <style>
+    #search-loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 100000;
+      background: #fff;
+      opacity: 0.4;
+      background-image: url(/img/loader.gif);
+      background-repeat: no-repeat;
+      background-position-x: 50%;
+      background-position-y: 50%;
+    }
+
+    .site-nav>ul>li>div {
+      padding: 0px 30px;
+      display: table-cell;
+      height: 55px;
+      vertical-align: middle;
+      line-height: 1.2;
+      color: #fff;
+    }
+
+    .lang_switch.lang_active a {
+      font-weight: normal;
+      color: orange;
+    }
+  </style>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M6QNL4B');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M6QNL4B" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="wrapper">
+
+
+
+
+
+
+    <div class="box_back">
+      <div class="box_back_center">
+        <div id="slide_window" class="callback2 mCustomScrollbar _mCS_1">
+          <div class="callback_center2 site-nav">
+          </div>
+          <div class="callback_center2 filter-nav">
+
+          </div>
+          <div class="callback_close"></div>
+        </div>
+
+        <div id="popup_window" class="callback2">
+          <div class="callback_center2    cars-nav">
+            <div class="remodal_x   cars_select_modal">
+
+              <form id="form_search_auto" method="post" action="#">
+                <div class="modal-header">
+                  <span class="modal--title">Подбор по авто</span>
+                </div>
+                <div class="modal-content">
+                  <div class="selection-steps">
+
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button class="form__button" id="clear_form_search_auto"
+                    style="border: 1px solid #03727e; color: #03727e; float: left !important; background: #fff;">Оновити
+                    фільтр</button>
+                  <button type="submit" class="form__button" id="form_search_auto_button"
+                    style="display: none">Подобрать</button>
+                </div>
+              </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+          <div class="callback_close"></div>
+        </div>
+      </div>
+    </div>
+    <!--TOPBAR-->
+    <div class="topbar">
+      <!--***-->
+      <ul class="topbar__nav">
+        <li class="lang_switch lang_active"><a href="/ua/">UA</a></li>
+        <li class="lang_switch  lang_last"><a href="/ru/">RU</a></li>
+        <li><a href="/ua/article/pro_nas/">Про нас</a></li>
+        <li><a href="/ua/article/dostavka_i_oplata">Доставка і оплата</a></li>
+        <li><a href="/ua/article/harantiya/">Гарантія</a></li>
+        <li><a href="/ua/article/servisnyy_tsentr">Сервісний центр</a></li>
+      </ul>
+      <!--***-->
+      <div class="topbar__phones">
+        <span class="phone"><a href="tel:095 830 30 73">095 830 30 73</a></span>
+        <span class="phone"><a href="tel:093 830 30 73">093 830 30 73</a></span>
+        <span class="phone"><a href="tel:067 830 30 73">067 830 30 73</a></span>
+      </div>
+      <!--***-->
+      <div class="user-office">
+        <a href="#" class="user-office__link">Особистий кабінет</a>
+      </div>
+      <!--***-->
+    </div>
+    <!--/TOPBAR-->
+    <!--HEADER-->
+    <header class="site-header">
+      <!--***-->
+      <div class="logo"><a href="/ua/"><img src="/img/logo.jpg" alt=""></a></div>
+      <!--***-->
+      <div class="search-form">
+        <div class="search-form-inner">
+          <form id="formsearch" method="get" action="/ua/search">
+            <select class="select topselect" disabled onclick="return false;">
+              <option data-seltype="sel1">Пошук за номером запчастини</option>
+            </select>
+            <input maxlength="" name="search_word" type="text" class="search-form__input"
+              placeholder="Назва товару, ключеві слова...">
+            <div class="pholder pholder-sel1">Введите номер запчасти...</div>
+            <div class="pholder pholder-sel2">Введите VIN код...</div>
+            <div class="pholder pholder-sel3">Поиск по авто...</div>
+            <input type="submit" class="head-button search-form__button" value="">
+          </form>
+          <div class="sub-search">
+            <!---->
+          </div>
+        </div>
+      </div>
+      <a href="#" class="header-user"><span class="header__num hidden">0</span></a>
+      <!--***-->
+      <a href="#" class="header-fav"><span class="header__num hidden">0</span></a>
+      <!--***-->
+      <a href="#" class="header-compare"><span class="header__num hidden">0</span></a>
+      <!--***-->
+      <a href="http://korzina.akb911.in.ua?sessionId=5f5d618fd0d61787071f3f5245e08065" class="header-cart"><span
+          class="header__num">0</span></a>
+      <!--***-->
+      <!--***-->
+    </header>
+    <!--/HEADER-->
+
+    <!--NAVIGATION-->
+    <nav class="site-nav desk">
+      <ul class="mob-ul">
+        <li class="mob-nav-block boxfade menufade">
+          <i class="mob-nav boxfade menufade"></i>
+        </li>
+      </ul>
+      <!--***-->
+      <ul class="menu-ul">
+        <li class="menu-ul-element li-switch-closed">
+          <div class="li-switch-block">
+            <div class="li-switch"></div>
+          </div>
+          <a href="/ua/products?category[]=16" class="nav__catalog">легкові акумулятори</a>
+          <ul>
+            <li><a href="/ua/products?category[]=18">вантажні аккумулятори</a></li>
+          </ul>
+        </li>
+        <li class="menu-ul-element li-switch-closed">
+          <div class="li-switch-block">
+            <div class="li-switch"></div>
+          </div>
+          <a href="/ua/products?category[]=18" class="nav__catalog">Мото акумулятори</a>
+          <ul>
+          </ul>
+        </li>
+        <li class="menu-ul-element li-switch-closed">
+          <div class="li-switch-block">
+            <div class="li-switch"></div>
+          </div>
+          <a href="/ua/products?category[]=19" class="nav__catalog">Човнові акумулятори</a>
+          <ul>
+          </ul>
+        </li>
+        <li class="menu-ul-element li-switch-closed">
+          <div class="li-switch-block">
+            <div class="li-switch"></div>
+          </div>
+          <a href="/ua#" class="nav__catalog">Аксесуари до акумуляторів</a>
+          <ul>
+          </ul>
+        </li>
+        <li class="menu-ul-element li-switch-closed">
+          <div class="li-switch-block">
+            <div class="li-switch"></div>
+          </div>
+          <a href="/ua/news/" class="nav__catalog">Обслуговування акумуляторів</a>
+          <ul>
+          </ul>
+        </li>
+      </ul>
+      <!--***-->
+      <a href="#" class="nav__link link_user"></a>
+      <!--***-->
+    </nav>
+    <div class="site-content">
+
+      <style>
+        #form_filter_value select {
+          padding: 10px;
+          border: 1px solid #8e8e8e;
+          color: #8e8e8e;
+          margin: 15px 5px 5px 10px;
+        }
+
+        .price_actual {
+          color: #f3441d;
+        }
+
+        .br {
+          height: 20px;
+        }
+
+        .filter-btn {
+          background: #03727e;
+          color: #fff;
+          padding: 20px 0;
+          border: none;
+          width: 100%;
+          text-transform: uppercase;
+        }
+
+        .catalog-filters-element>.catalog-filters-cell.close .title_close {
+          display: none;
+        }
+
+        .catalog-filters-element>.catalog-filters-cell.close .title_open {
+          display: block;
+        }
+
+        .catalog-filters-element>.catalog-filters-cell .title_open {
+          display: none;
+        }
+
+        .catalog-filters-element>.catalog-filters-cell .title_close {
+          display: block;
+        }
+
+        .catalog-filters-element>.catalog-filters-cell.close {
+          height: 200px;
+          overflow-y: scroll;
+        }
+
+        .catalog-filters-element>.catalog-filters-cell .open_link {
+          position: absolute;
+          bottom: 0;
+          height: 20px;
+          width: 100%;
+          left: 0;
+          z-index: 100;
+        }
+
+        .mCustomScrollBox {
+          width: 100%;
+        }
+
+        .probrand .filter-scroll {
+          margin-bottom: 0;
+          /*border-bottom: solid 1px #adacaf;*/
+          padding-bottom: 0;
+        }
+
+        .wrapper .catalog-filters-br {
+          font-size: 13px;
+          position: absolute;
+          left: 5px;
+          top: -30px;
+          padding: 10px 0 0 10px;
+          height: auto;
+        }
+
+        @media(min-width: 1279px) {
+          .catalog-block {
+            padding-top: 5px;
+          }
+        }
+
+        @media(max-width: 1280px) {
+          .catalog-left .cars_select_button_block {
+            margin-top: 10px;
+          }
+        }
+
+        .wrapper .catalog-filters-br a {
+          padding: 1px 6px;
+          background-color: #03727e;
+          color: #fff;
+          text-decoration: none;
+          border-radius: 20px;
+          width: 20px;
+          height: 15px;
+          font-family: cursive;
+          display: inline;
+          margin-right: 2px;
+        }
+
+        li.catalog-filters-element {
+          padding-top: 0;
+        }
+
+        @media(max-width: 900px) {
+          .wrapper .catalog-filters-br {
+            position: relative;
+            height: auto;
+            top: 0;
+            left: 0;
+          }
+        }
+
+        @media (max-width: 1280px) {
+          .catalog-left .car_select_items {
+            margin-top: 10px;
+          }
+        }
+
+        @media (max-width: 800px) {
+          .catalog-left .cars_select_button_block {
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+          .wrapper .catalog-filters-br {
+            padding-left: 0;
+            top: -10px;
+          }
+
+          .catalog-left .car_select_items {
+            margin: 0 2px 10px 0;
+          }
+        }
+
+        .cars_select_button_block {
+          display: inline-block;
+          width: 100%;
+          padding-left: 10px;
+          margin-top: 15px;
+          padding-right: 10px;
+        }
+
+        .car_select_items {
+          display: block;
+          font-size: 15px;
+          padding: 9px;
+          color: #fff;
+          background-color: #03727e;
+          min-height: 40px;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-top: 15px;
+          position: relative;
+        }
+
+        .callback_close {
+          right: 0;
+        }
+
+        .callback_close:before {
+          content: "X";
+          font-size: 20px;
+          line-height: 20px;
+        }
+
+        .callback_close {
+          font-size: 17px;
+        }
+      </style>
+
+      <!--
+    <div class="content__head">
+            <div class="breadcrumbs">
+                <a href="#">Главная</a>
+            </div>
+            <h1 class="page__title">Каталог</h1>
+        </div>
+    -->
+
+      <div class="content-filters">
+        <nobr>
+          <span class="content-filters__collected">Підібрано 16 товарів з 1799</span>
+          <div class="content-filters__views">
+            <span class="content-filters__label">Зміна вартості:</span>
+            <form action="" method="get" style="width: auto;">
+              <select name="sort_by" class="select select_dashed" onchange="$(this).parent().submit()">
+                <option value="price_asc">
+                  від дешевших до дорощих</option>
+                <option value="price_desc">от дорощих к дешевших</option>
+                <option value="raiting_desc">по рейтингу</option>
+              </select>
+              <input type="hidden" name="models" value="">
+              <input type="hidden" name="brands" value="">
+              <input type="hidden" name="sku" value="">
+            </form>
+          </div>
+        </nobr>
+      </div>
+
+      <div class="filters-bage-block">
+      </div>
+
+      <div class="catalog-filters">
+        <div class="filter-block"><i class="filter-button boxfade"><i class="open__ico filterget"></i>Фільтри</i> </i>
+        </div>
+        <div>
+          <ul class="catalog-filters-list">
+            <form action="" method="get" id="catalog-filters-form">
+              <input type="hidden" name="models" value="">
+              <input type="hidden" name="brands" value="">
+              <input type="hidden" name="sku" value="">
+              <li class="catalog-filters-element probrand
+                            li-switch-opened">
+                <div class="catalog-filters-title">Виробник</div>
+                <div class="li-switch-block">
+                  <div class="li-switch"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <!--div class="catalog-filters-title">
+                                            Виробник
+                                        </div-->
+                  <div class="filter-scroll mCustomScrollbar _mCS_1">
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="Bosch" name="chars[443][9640011]"
+                        class="form__checkbox  filters-input" id="filter-9640011" value="Bosch">
+                      <label class="option__label " for="filter-9640011">Bosch</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="Centra" name="chars[443][9640259]"
+                        class="form__checkbox  filters-input" id="filter-9640259" value="Centra">
+                      <label class="option__label " for="filter-9640259">Centra</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="Deta" name="chars[443][9640319]"
+                        class="form__checkbox  filters-input" id="filter-9640319" value="Deta">
+                      <label class="option__label " for="filter-9640319">Deta</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="Duracell" name="chars[443][9640318]"
+                        class="form__checkbox  filters-input" id="filter-9640318" value="Duracell">
+                      <label class="option__label " for="filter-9640318">Duracell</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="Exide" name="chars[443][9640407]"
+                        class="form__checkbox  filters-input" id="filter-9640407" value="Exide">
+                      <label class="option__label " for="filter-9640407">Exide</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="TAB" name="chars[443][9640118]"
+                        class="form__checkbox  filters-input" id="filter-9640118" value="TAB">
+                      <label class="option__label " for="filter-9640118">TAB</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="Topla" name="chars[443][9640061]"
+                        class="form__checkbox  filters-input" id="filter-9640061" value="Topla">
+                      <label class="option__label " for="filter-9640061">Topla</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="Tudor" name="chars[443][9640466]"
+                        class="form__checkbox  filters-input" id="filter-9640466" value="Tudor">
+                      <label class="option__label " for="filter-9640466">Tudor</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="Varta" name="chars[443][9640210]"
+                        class="form__checkbox  filters-input" id="filter-9640210" value="Varta">
+                      <label class="option__label " for="filter-9640210">Varta</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="Vesna" name="chars[443][9640165]"
+                        class="form__checkbox  filters-input" id="filter-9640165" value="Vesna">
+                      <label class="option__label " for="filter-9640165">Vesna</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="Yuasa" name="chars[443][9640525]"
+                        class="form__checkbox  filters-input" id="filter-9640525" value="Yuasa">
+                      <label class="option__label " for="filter-9640525">Yuasa</label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog-filters-element probrand
+                            li-switch-opened">
+                <div class="catalog-filters-title">Підтримка Start-stop</div>
+                <div class="li-switch-block">
+                  <div class="li-switch"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <!--div class="catalog-filters-title">
+                                            Підтримка Start-stop
+                                        </div-->
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="No" name="chars[448][9641139]"
+                      class="form__checkbox  filters-input" id="filter-9641139" value="No">
+                    <label class="option__label " for="filter-9641139">No</label>
+                  </div>
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="Yes" name="chars[448][9641164]"
+                      class="form__checkbox  filters-input" id="filter-9641164" value="Yes">
+                    <label class="option__label " for="filter-9641164">Yes</label>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog-filters-element probrand
+                            li-switch-opened">
+                <div class="catalog-filters-title">Ємність</div>
+                <div class="li-switch-block">
+                  <div class="li-switch"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <!--div class="catalog-filters-title">
+                                            Ємність
+                                        </div-->
+                  <div class="filter-scroll mCustomScrollbar _mCS_1">
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="9Ah" name="chars[429][9643115]"
+                        class="form__checkbox  filters-input" id="filter-9643115" value="9Ah">
+                      <label class="option__label " for="filter-9643115">9Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="11Ah" name="chars[429][9643117]"
+                        class="form__checkbox  filters-input" id="filter-9643117" value="11Ah">
+                      <label class="option__label " for="filter-9643117">11Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="13Ah" name="chars[429][9643118]"
+                        class="form__checkbox  filters-input" id="filter-9643118" value="13Ah">
+                      <label class="option__label " for="filter-9643118">13Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="15Ah" name="chars[429][9643119]"
+                        class="form__checkbox  filters-input" id="filter-9643119" value="15Ah">
+                      <label class="option__label " for="filter-9643119">15Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="35Ah" name="chars[429][9642923]"
+                        class="form__checkbox  filters-input" id="filter-9642923" value="35Ah">
+                      <label class="option__label " for="filter-9642923">35Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="36Ah" name="chars[429][9643357]"
+                        class="form__checkbox  filters-input" id="filter-9643357" value="36Ah">
+                      <label class="option__label " for="filter-9643357">36Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="40Ah" name="chars[429][9642842]"
+                        class="form__checkbox  filters-input" id="filter-9642842" value="40Ah">
+                      <label class="option__label " for="filter-9642842">40Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="44Ah" name="chars[429][9642831]"
+                        class="form__checkbox  filters-input" id="filter-9642831" value="44Ah">
+                      <label class="option__label " for="filter-9642831">44Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="45Ah" name="chars[429][9642845]"
+                        class="form__checkbox  filters-input" id="filter-9642845" value="45Ah">
+                      <label class="option__label " for="filter-9642845">45Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="47Ah" name="chars[429][9643083]"
+                        class="form__checkbox  filters-input" id="filter-9643083" value="47Ah">
+                      <label class="option__label " for="filter-9643083">47Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="50Ah" name="chars[429][9642883]"
+                        class="form__checkbox  filters-input" id="filter-9642883" value="50Ah">
+                      <label class="option__label " for="filter-9642883">50Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="52Ah" name="chars[429][9642833]"
+                        class="form__checkbox  filters-input" id="filter-9642833" value="52Ah">
+                      <label class="option__label " for="filter-9642833">52Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="53Ah" name="chars[429][9643084]"
+                        class="form__checkbox  filters-input" id="filter-9643084" value="53Ah">
+                      <label class="option__label " for="filter-9643084">53Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="54Ah" name="chars[429][9642867]"
+                        class="form__checkbox  filters-input" id="filter-9642867" value="54Ah">
+                      <label class="option__label " for="filter-9642867">54Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="55Ah" name="chars[429][9642884]"
+                        class="form__checkbox  filters-input" id="filter-9642884" value="55Ah">
+                      <label class="option__label " for="filter-9642884">55Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="60Ah" name="chars[429][9642834]"
+                        class="form__checkbox  filters-input" id="filter-9642834" value="60Ah">
+                      <label class="option__label " for="filter-9642834">60Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="61Ah" name="chars[429][9642868]"
+                        class="form__checkbox  filters-input" id="filter-9642868" value="61Ah">
+                      <label class="option__label " for="filter-9642868">61Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="62Ah" name="chars[429][9642918]"
+                        class="form__checkbox  filters-input" id="filter-9642918" value="62Ah">
+                      <label class="option__label " for="filter-9642918">62Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="63Ah" name="chars[429][9642869]"
+                        class="form__checkbox  filters-input" id="filter-9642869" value="63Ah">
+                      <label class="option__label " for="filter-9642869">63Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="64Ah" name="chars[429][9643087]"
+                        class="form__checkbox  filters-input" id="filter-9643087" value="64Ah">
+                      <label class="option__label " for="filter-9643087">64Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="65Ah" name="chars[429][9642857]"
+                        class="form__checkbox  filters-input" id="filter-9642857" value="65Ah">
+                      <label class="option__label " for="filter-9642857">65Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="66Ah" name="chars[429][9642886]"
+                        class="form__checkbox  filters-input" id="filter-9642886" value="66Ah">
+                      <label class="option__label " for="filter-9642886">66Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="70Ah" name="chars[429][9642851]"
+                        class="form__checkbox  filters-input" id="filter-9642851" value="70Ah">
+                      <label class="option__label " for="filter-9642851">70Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="71Ah" name="chars[429][9643110]"
+                        class="form__checkbox  filters-input" id="filter-9643110" value="71Ah">
+                      <label class="option__label " for="filter-9643110">71Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="72Ah" name="chars[429][9642837]"
+                        class="form__checkbox  filters-input" id="filter-9642837" value="72Ah">
+                      <label class="option__label " for="filter-9642837">72Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="73Ah" name="chars[429][9642887]"
+                        class="form__checkbox  filters-input" id="filter-9642887" value="73Ah">
+                      <label class="option__label " for="filter-9642887">73Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="74Ah" name="chars[429][9642838]"
+                        class="form__checkbox  filters-input" id="filter-9642838" value="74Ah">
+                      <label class="option__label " for="filter-9642838">74Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="75Ah" name="chars[429][9642859]"
+                        class="form__checkbox  filters-input" id="filter-9642859" value="75Ah">
+                      <label class="option__label " for="filter-9642859">75Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="76Ah" name="chars[429][9643363]"
+                        class="form__checkbox  filters-input" id="filter-9643363" value="76Ah">
+                      <label class="option__label " for="filter-9643363">76Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="77Ah" name="chars[429][9642872]"
+                        class="form__checkbox  filters-input" id="filter-9642872" value="77Ah">
+                      <label class="option__label " for="filter-9642872">77Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="78Ah" name="chars[429][9642921]"
+                        class="form__checkbox  filters-input" id="filter-9642921" value="78Ah">
+                      <label class="option__label " for="filter-9642921">78Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="80Ah" name="chars[429][9642840]"
+                        class="form__checkbox  filters-input" id="filter-9642840" value="80Ah">
+                      <label class="option__label " for="filter-9642840">80Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="85Ah" name="chars[429][9642865]"
+                        class="form__checkbox  filters-input" id="filter-9642865" value="85Ah">
+                      <label class="option__label " for="filter-9642865">85Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="90Ah" name="chars[429][9642900]"
+                        class="form__checkbox  filters-input" id="filter-9642900" value="90Ah">
+                      <label class="option__label " for="filter-9642900">90Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="92Ah" name="chars[429][9642888]"
+                        class="form__checkbox  filters-input" id="filter-9642888" value="92Ah">
+                      <label class="option__label " for="filter-9642888">92Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="95Ah" name="chars[429][9642841]"
+                        class="form__checkbox  filters-input" id="filter-9642841" value="95Ah">
+                      <label class="option__label " for="filter-9642841">95Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="100Ah" name="chars[429][9642874]"
+                        class="form__checkbox  filters-input" id="filter-9642874" value="100Ah">
+                      <label class="option__label " for="filter-9642874">100Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="105Ah" name="chars[429][9642880]"
+                        class="form__checkbox  filters-input" id="filter-9642880" value="105Ah">
+                      <label class="option__label " for="filter-9642880">105Ah</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="110Ah" name="chars[429][9642875]"
+                        class="form__checkbox  filters-input" id="filter-9642875" value="110Ah">
+                      <label class="option__label " for="filter-9642875">110Ah</label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog-filters-element probrand
+                            li-switch-opened">
+                <div class="catalog-filters-title">Пусковий струм</div>
+                <div class="li-switch-block">
+                  <div class="li-switch"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <!--div class="catalog-filters-title">
+                                            Пусковий струм
+                                        </div-->
+                  <div class="filter-scroll mCustomScrollbar _mCS_1">
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="120A" name="chars[430][9643681]"
+                        class="form__checkbox  filters-input" id="filter-9643681" value="120A">
+                      <label class="option__label " for="filter-9643681">120A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="150A" name="chars[430][9643683]"
+                        class="form__checkbox  filters-input" id="filter-9643683" value="150A">
+                      <label class="option__label " for="filter-9643683">150A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="200A" name="chars[430][9643684]"
+                        class="form__checkbox  filters-input" id="filter-9643684" value="200A">
+                      <label class="option__label " for="filter-9643684">200A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="270A" name="chars[430][9643489]"
+                        class="form__checkbox  filters-input" id="filter-9643489" value="270A">
+                      <label class="option__label " for="filter-9643489">270A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="330A" name="chars[430][9643408]"
+                        class="form__checkbox  filters-input" id="filter-9643408" value="330A">
+                      <label class="option__label " for="filter-9643408">330A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="350A" name="chars[430][9643647]"
+                        class="form__checkbox  filters-input" id="filter-9643647" value="350A">
+                      <label class="option__label " for="filter-9643647">350A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="360A" name="chars[430][9643478]"
+                        class="form__checkbox  filters-input" id="filter-9643478" value="360A">
+                      <label class="option__label " for="filter-9643478">360A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="390A" name="chars[430][9643648]"
+                        class="form__checkbox  filters-input" id="filter-9643648" value="390A">
+                      <label class="option__label " for="filter-9643648">390A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="400A" name="chars[430][9643663]"
+                        class="form__checkbox  filters-input" id="filter-9643663" value="400A">
+                      <label class="option__label " for="filter-9643663">400A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="420A" name="chars[430][9643397]"
+                        class="form__checkbox  filters-input" id="filter-9643397" value="420A">
+                      <label class="option__label " for="filter-9643397">420A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="440A" name="chars[430][9643398]"
+                        class="form__checkbox  filters-input" id="filter-9643398" value="440A">
+                      <label class="option__label " for="filter-9643398">440A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="450A" name="chars[430][9643449]"
+                        class="form__checkbox  filters-input" id="filter-9643449" value="450A">
+                      <label class="option__label " for="filter-9643449">450A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="470A" name="chars[430][9643399]"
+                        class="form__checkbox  filters-input" id="filter-9643399" value="470A">
+                      <label class="option__label " for="filter-9643399">470A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="480A" name="chars[430][9643670]"
+                        class="form__checkbox  filters-input" id="filter-9643670" value="480A">
+                      <label class="option__label " for="filter-9643670">480A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="490A" name="chars[430][9643480]"
+                        class="form__checkbox  filters-input" id="filter-9643480" value="490A">
+                      <label class="option__label " for="filter-9643480">490A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="500A" name="chars[430][9643450]"
+                        class="form__checkbox  filters-input" id="filter-9643450" value="500A">
+                      <label class="option__label " for="filter-9643450">500A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="510A" name="chars[430][9643482]"
+                        class="form__checkbox  filters-input" id="filter-9643482" value="510A">
+                      <label class="option__label " for="filter-9643482">510A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="520A" name="chars[430][9643432]"
+                        class="form__checkbox  filters-input" id="filter-9643432" value="520A">
+                      <label class="option__label " for="filter-9643432">520A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="530A" name="chars[430][9643433]"
+                        class="form__checkbox  filters-input" id="filter-9643433" value="530A">
+                      <label class="option__label " for="filter-9643433">530A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="540A" name="chars[430][9643400]"
+                        class="form__checkbox  filters-input" id="filter-9643400" value="540A">
+                      <label class="option__label " for="filter-9643400">540A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="550A" name="chars[430][9643723]"
+                        class="form__checkbox  filters-input" id="filter-9643723" value="550A">
+                      <label class="option__label " for="filter-9643723">550A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="560A" name="chars[430][9643483]"
+                        class="form__checkbox  filters-input" id="filter-9643483" value="560A">
+                      <label class="option__label " for="filter-9643483">560A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="580A" name="chars[430][9643654]"
+                        class="form__checkbox  filters-input" id="filter-9643654" value="580A">
+                      <label class="option__label " for="filter-9643654">580A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="600A" name="chars[430][9643434]"
+                        class="form__checkbox  filters-input" id="filter-9643434" value="600A">
+                      <label class="option__label " for="filter-9643434">600A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="610A" name="chars[430][9643435]"
+                        class="form__checkbox  filters-input" id="filter-9643435" value="610A">
+                      <label class="option__label " for="filter-9643435">610A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="620A" name="chars[430][9643452]"
+                        class="form__checkbox  filters-input" id="filter-9643452" value="620A">
+                      <label class="option__label " for="filter-9643452">620A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="630A" name="chars[430][9643417]"
+                        class="form__checkbox  filters-input" id="filter-9643417" value="630A">
+                      <label class="option__label " for="filter-9643417">630A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="640A" name="chars[430][9643422]"
+                        class="form__checkbox  filters-input" id="filter-9643422" value="640A">
+                      <label class="option__label " for="filter-9643422">640A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="650A" name="chars[430][9643423]"
+                        class="form__checkbox  filters-input" id="filter-9643423" value="650A">
+                      <label class="option__label " for="filter-9643423">650A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="670A" name="chars[430][9643676]"
+                        class="form__checkbox  filters-input" id="filter-9643676" value="670A">
+                      <label class="option__label " for="filter-9643676">670A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="680A" name="chars[430][9643403]"
+                        class="form__checkbox  filters-input" id="filter-9643403" value="680A">
+                      <label class="option__label " for="filter-9643403">680A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="700A" name="chars[430][9643495]"
+                        class="form__checkbox  filters-input" id="filter-9643495" value="700A">
+                      <label class="option__label " for="filter-9643495">700A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="710A" name="chars[430][9643949]"
+                        class="form__checkbox  filters-input" id="filter-9643949" value="710A">
+                      <label class="option__label " for="filter-9643949">710A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="720A" name="chars[430][9643476]"
+                        class="form__checkbox  filters-input" id="filter-9643476" value="720A">
+                      <label class="option__label " for="filter-9643476">720A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="730A" name="chars[430][9643425]"
+                        class="form__checkbox  filters-input" id="filter-9643425" value="730A">
+                      <label class="option__label " for="filter-9643425">730A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="740A" name="chars[430][9643406]"
+                        class="form__checkbox  filters-input" id="filter-9643406" value="740A">
+                      <label class="option__label " for="filter-9643406">740A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="750A" name="chars[430][9643437]"
+                        class="form__checkbox  filters-input" id="filter-9643437" value="750A">
+                      <label class="option__label " for="filter-9643437">750A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="760A" name="chars[430][9643424]"
+                        class="form__checkbox  filters-input" id="filter-9643424" value="760A">
+                      <label class="option__label " for="filter-9643424">760A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="780A" name="chars[430][9643438]"
+                        class="form__checkbox  filters-input" id="filter-9643438" value="780A">
+                      <label class="option__label " for="filter-9643438">780A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="800A" name="chars[430][9643407]"
+                        class="form__checkbox  filters-input" id="filter-9643407" value="800A">
+                      <label class="option__label " for="filter-9643407">800A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="820A" name="chars[430][9643704]"
+                        class="form__checkbox  filters-input" id="filter-9643704" value="820A">
+                      <label class="option__label " for="filter-9643704">820A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="830A" name="chars[430][9643419]"
+                        class="form__checkbox  filters-input" id="filter-9643419" value="830A">
+                      <label class="option__label " for="filter-9643419">830A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="850A" name="chars[430][9643427]"
+                        class="form__checkbox  filters-input" id="filter-9643427" value="850A">
+                      <label class="option__label " for="filter-9643427">850A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="900A" name="chars[430][9643460]"
+                        class="form__checkbox  filters-input" id="filter-9643460" value="900A">
+                      <label class="option__label " for="filter-9643460">900A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="920A" name="chars[430][9643441]"
+                        class="form__checkbox  filters-input" id="filter-9643441" value="920A">
+                      <label class="option__label " for="filter-9643441">920A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="950A" name="chars[430][9643446]"
+                        class="form__checkbox  filters-input" id="filter-9643446" value="950A">
+                      <label class="option__label " for="filter-9643446">950A</label>
+                    </div>
+                    <div class="catalog-filters-cell">
+                      <input type="checkbox" data-fcheck="1000A" name="chars[430][9643456]"
+                        class="form__checkbox  filters-input" id="filter-9643456" value="1000A">
+                      <label class="option__label " for="filter-9643456">1000A</label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog-filters-element probrand
+                            li-switch-opened">
+                <div class="catalog-filters-title">Технологія</div>
+                <div class="li-switch-block">
+                  <div class="li-switch"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <!--div class="catalog-filters-title">
+                                            Технологія
+                                        </div-->
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="AGM" name="chars[436][9641748]"
+                      class="form__checkbox  filters-input" id="filter-9641748" value="AGM">
+                    <label class="option__label " for="filter-9641748">AGM</label>
+                  </div>
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="EFB" name="chars[436][9641728]"
+                      class="form__checkbox  filters-input" id="filter-9641728" value="EFB">
+                    <label class="option__label " for="filter-9641728">EFB</label>
+                  </div>
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="Кислотный" name="chars[436][9641703]"
+                      class="form__checkbox  filters-input" id="filter-9641703" value="Кислотный">
+                    <label class="option__label " for="filter-9641703">Кислотный</label>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog-filters-element probrand
+                            li-switch-opened">
+                <div class="catalog-filters-title">Розміри</div>
+                <div class="li-switch-block">
+                  <div class="li-switch"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <select data-fsel="Довжина (мм)" id="filters-width" class="select filters-input" name="chars[431]">
+                    <option selected disabled>Довжина (мм)</option>
+                    <option value="150">150</option>
+                    <option value="175">175</option>
+                    <option value="187">187</option>
+                    <option value="196">196</option>
+                    <option value="200">200</option>
+                    <option value="207">207</option>
+                    <option value="210">210</option>
+                    <option value="230">230</option>
+                    <option value="232">232</option>
+                    <option value="233">233</option>
+                    <option value="236">236</option>
+                    <option value="237">237</option>
+                    <option value="238">238</option>
+                    <option value="241">241</option>
+                    <option value="242">242</option>
+                    <option value="243">243</option>
+                    <option value="259">259</option>
+                    <option value="260">260</option>
+                    <option value="269">269</option>
+                    <option value="270">270</option>
+                    <option value="278">278</option>
+                    <option value="303">303</option>
+                    <option value="305">305</option>
+                    <option value="306">306</option>
+                    <option value="315">315</option>
+                    <option value="317">317</option>
+                    <option value="353">353</option>
+                    <option value="354">354</option>
+                    <option value="392">392</option>
+                    <option value="393">393</option>
+                    <option value="394">394</option>
+                  </select>
+                  <div class="catalog-filters-br"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <select data-fsel="Ширина (мм)" id="filters-width" class="select filters-input" name="chars[432]">
+                    <option selected disabled>Ширина (мм)</option>
+                    <option value="90">90</option>
+                    <option value="127">127</option>
+                    <option value="128">128</option>
+                    <option value="129">129</option>
+                    <option value="134">134</option>
+                    <option value="135">135</option>
+                    <option value="137">137</option>
+                    <option value="140">140</option>
+                    <option value="173">173</option>
+                    <option value="174">174</option>
+                    <option value="175">175</option>
+                  </select>
+                  <div class="catalog-filters-br"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <select data-fsel="Висота (мм)" id="filters-width" class="select filters-input" name="chars[433]">
+                    <option selected disabled>Висота (мм)</option>
+                    <option value="105">105</option>
+                    <option value="130">130</option>
+                    <option value="145">145</option>
+                    <option value="175">175</option>
+                    <option value="190">190</option>
+                    <option value="205">205</option>
+                    <option value="206">206</option>
+                    <option value="220">220</option>
+                    <option value="221">221</option>
+                    <option value="222">222</option>
+                    <option value="223">223</option>
+                    <option value="225">225</option>
+                    <option value="226">226</option>
+                    <option value="227">227</option>
+                  </select>
+                  <div class="catalog-filters-br"></div>
+                </div>
+              </li>
+              <li class="catalog-filters-element probrand
+                            li-switch-opened">
+                <div class="catalog-filters-title">Виконання корпусу</div>
+                <div class="li-switch-block">
+                  <div class="li-switch"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <!--div class="catalog-filters-title">
+                                            Виконання корпусу
+                                        </div-->
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="Asia" name="chars[435][9643974]"
+                      class="form__checkbox  filters-input" id="filter-9643974" value="Asia">
+                    <label class="option__label " for="filter-9643974">Asia</label>
+                  </div>
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="Euro" name="chars[435][9643963]"
+                      class="form__checkbox  filters-input" id="filter-9643963" value="Euro">
+                    <label class="option__label " for="filter-9643963">Euro</label>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog-filters-element probrand
+                            li-switch-opened">
+                <div class="catalog-filters-title">Плюсова клема</div>
+                <div class="li-switch-block">
+                  <div class="li-switch"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <!--div class="catalog-filters-title">
+                                            Плюсова клема
+                                        </div-->
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="ETN9" name="chars[437][9645914]"
+                      class="form__checkbox  filters-input" id="filter-9645914" value="ETN9">
+                    <label class="option__label " for="filter-9645914">ETN9</label>
+                  </div>
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="слева" name="chars[437][9645630]"
+                      class="form__checkbox  filters-input" id="filter-9645630" value="слева">
+                    <label class="option__label " for="filter-9645630">слева</label>
+                  </div>
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="справа" name="chars[437][9645625]"
+                      class="form__checkbox  filters-input" id="filter-9645625" value="справа">
+                    <label class="option__label " for="filter-9645625">справа</label>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog-filters-element probrand
+                            li-switch-opened">
+                <div class="catalog-filters-title">Тип клем</div>
+                <div class="li-switch-block">
+                  <div class="li-switch"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <!--div class="catalog-filters-title">
+                                            Тип клем
+                                        </div-->
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="Толстые (19,5/17,9 мм)" name="chars[445][9645077]"
+                      class="form__checkbox  filters-input" id="filter-9645077" value="Толстые (19,5/17,9 мм)">
+                    <label class="option__label " for="filter-9645077">Толстые (19,5/17,9 мм)</label>
+                  </div>
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="Тонкие (12,7/11,1 мм)" name="chars[445][9645088]"
+                      class="form__checkbox  filters-input" id="filter-9645088" value="Тонкие (12,7/11,1 мм)">
+                    <label class="option__label " for="filter-9645088">Тонкие (12,7/11,1 мм)</label>
+                  </div>
+                </div>
+              </li>
+              <li class="catalog-filters-element probrand
+                            li-switch-closed">
+                <div class="catalog-filters-title">Тип кріплення</div>
+                <div class="li-switch-block">
+                  <div class="li-switch"></div>
+                </div>
+                <div class="catalog-filters-cell">
+                  <!--div class="catalog-filters-title">
+                                            Тип кріплення
+                                        </div-->
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="B00" name="chars[434][9644518]"
+                      class="form__checkbox  filters-input" id="filter-9644518" value="B00">
+                    <label class="option__label " for="filter-9644518">B00</label>
+                  </div>
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="B01" name="chars[434][9644527]"
+                      class="form__checkbox  filters-input" id="filter-9644527" value="B01">
+                    <label class="option__label " for="filter-9644527">B01</label>
+                  </div>
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="B07" name="chars[434][9644798]"
+                      class="form__checkbox  filters-input" id="filter-9644798" value="B07">
+                    <label class="option__label " for="filter-9644798">B07</label>
+                  </div>
+                  <div class="catalog-filters-cell">
+                    <input type="checkbox" data-fcheck="B13" name="chars[434][9644507]"
+                      class="form__checkbox  filters-input" id="filter-9644507" value="B13">
+                    <label class="option__label " for="filter-9644507">B13</label>
+                  </div>
+                </div>
+              </li>
+              <!--div class="catalog-filters-cell">
+                            <input type="submit" class="filter-btn">
+                        </div-->
+            </form>
+          </ul>
+        </div>
+      </div>
+      <!--MIDDLE-->
+      <div class="catalog-left">
+
+
+        <script> window.localStorage.removeItem('car_items'); </script>
+        <div class="cars_select_button_block" style="display: none;">
+          <div class="cars_select_button selected">
+            <div class="button_text boxfade popup-button carsearch">
+              Підбір за маркою автомобіля
+            </div>
+            <div class="button_row">
+              <div class="button_row_element row_brand"></div>
+              <div class="button_row_element row_model"></div>
+              <div class="button_row_element row_fuel"></div>
+              <br>
+              <div class="button_row_element row_engine second_row"></div>
+              <div class="button_row_element row_code second_row long_row_element"></div>
+              <div class="button_row_element row_other second_row long_row_element"></div>
+              <div class="callback_close">X</div>
+              <div class="fix"></div>
+            </div>
+
+          </div>
+          <div class="cars_select_text_block">
+            <div class="cars_select_text"></div>
+          </div>
+        </div>
+
+
+        <!--FILTERS-->
+        <div class="catalog-filters-br">
+        </div>
+
+
+        <form method="get" id="form_filter_value" style="display: block;">
+          <div id="columns_selector">
+            &nbsp;<button id="catalog_reset"
+              style="display: none; margin-left: 10px; background: #03727e; border: none; padding: 12px 15px; color: #fff;">Reset</button>
+          </div>
+        </form>
+        <div class="catalog-block">
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/EB712" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/exide_EB712_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Exide Excell 71Ah 670A R+ EB712</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: EB712</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Exide Excell 71Ah 670A R+ EB712&quantity=1&art=EB712&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/544401042" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/varta_544401042_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Varta Blue Dynamic 44Ah 420A R+ 544401042</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: 544401042</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4.5">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Varta Blue Dynamic 44Ah 420A R+ 544401042&quantity=1&art=544401042&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/560409054" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/varta_560409054_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Varta Blue Dynamic 60Ah 540A R+ 560409054</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: 560409054</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4.5">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Varta Blue Dynamic 60Ah 540A R+ 560409054&quantity=1&art=560409054&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/580406074" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/varta_580406074_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Varta Blue Dynamic 80Ah 740A R+ 580406074</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: 580406074</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4.5">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Varta Blue Dynamic 80Ah 740A R+ 580406074&quantity=1&art=580406074&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/0092S40010" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/bosch_0092S40010_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Bosch S4 44Ah 440A R+ 0092S40010</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: 0092S40010</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4.5">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Bosch S4 44Ah 440A R+ 0092S40010&quantity=1&art=0092S40010&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/0092S40180" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/bosch_0092S40180_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Bosch S4 40Ah 330A R+ 0092S40180</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: 0092S40180</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4.5">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Bosch S4 40Ah 330A R+ 0092S40180&quantity=1&art=0092S40180&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/CB454" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/centra_CB454_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Centra Plus 45Ah 330A R+ CB454</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: CB454</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Centra Plus 45Ah 330A R+ CB454&quantity=1&art=CB454&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/0092S40280" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/bosch_0092S40280_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Bosch S4 95Ah 830A R+ 0092S40280</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: 0092S40280</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4.5">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Bosch S4 95Ah 830A R+ 0092S40280&quantity=1&art=0092S40280&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/CB705" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/centra_CB705_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Centra Plus 70Ah 540A L+ CB705</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: CB705</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Centra Plus 70Ah 540A L+ CB705&quantity=1&art=CB705&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/YBX3214" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/yuasa_YBX3214_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Yuasa SMF 60Ah 540A L+ YBX3214</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: YBX3214</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Yuasa SMF 60Ah 540A L+ YBX3214&quantity=1&art=YBX3214&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/0092S4E410" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                    <i class="catalog-item__label label_sale" style="background-color: #FF8000;">Start-stop EFB</i>
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/bosch_0092S4E410_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Bosch S4 EFB 72Ah 760A R+ 0092S4E410</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: 0092S4E410</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="5">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Bosch S4  EFB 72Ah 760A R+ 0092S4E410&quantity=1&art=0092S4E410&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/0092S50130" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/bosch_0092S50130_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Bosch S5 100Ah 830A R+ 0092S50130</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: 0092S50130</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="5">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Bosch S5 100Ah 830A R+ 0092S50130&quantity=1&art=0092S50130&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/YBX7027" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                    <i class="catalog-item__label label_sale" style="background-color: #FF8000;">Start-stop EFB</i>
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/noimage.jpg" alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Yuasa EFB Start Stop Plus 65Ah 600A R+
+                          YBX7027</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: YBX7027</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="5">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Yuasa EFB Start Stop Plus 65Ah 600A R+ YBX7027&quantity=1&art=YBX7027&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/DA40" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/duracell_DA40_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Duracell Advanced 40Ah 330A R+ DA40</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: DA40</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="5">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Duracell Advanced 40Ah 330A R+ DA40&quantity=1&art=DA40&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/112060" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                    <i class="catalog-item__label label_sale" style="background-color: #FF8000;">Start-stop EFB</i>
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/topla_112060_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор Topla EFB Stop &amp; Go 60Ah 640A R+ 112060</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: 112060</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор Topla EFB Stop &amp; Go 60Ah 640A R+ 112060&quantity=1&art=112060&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+          <div class="catalog-item product-item">
+            <div class="catalog-item__inner">
+              <a href="/ua/product/27/189080" target="_blank" class="catalog-item__link">
+                <div class="catalog-item__labels">
+                  <div class="catalog-item__bank_textlabels">
+                  </div>
+                  <div class="catalog-item__bank_labels">
+                  </div>
+                </div>
+
+                <div class="catalog-item__weather_labels">
+                </div>
+                <div class="catalog-item__photo"><img src="http://akb911.in.ua/uploads/products/tab_189080_1.jpg"
+                    alt=""></div>
+                <div class="block-images block-images-prodtitle info">
+                  <div class="block-images info-inner0">
+                    <div class="block-images info-inner">
+                      <div class="block-images info-inner1">
+                        <span class="catalog-item__title">Акумулятор TAB Magic 78Ah 750A R+ 189080</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span class="catalog-item__number">Артикул: 189080</span>
+              </a>
+
+              <div class="product__reviews prodrev" data-rating="4">
+                <div class="reviews__stars">
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                  <i class="star_icon star_empty"></i>
+                </div>
+              </div>
+
+              <div class="catalog-item__prices">
+                <span class="product__price price_old" style="opacity: 0;">&nbsp;</span>
+                <span class="product__price">57 <span class="unit">грн.</span></span>
+              </div>
+              <span class="catalog-stock__status instock">
+                <span class="storage__value">
+                  Є в наявності
+                </span>
+              </span>
+
+              <a href="http://195.226.192.57:3333/order/product/add?partner=asva&store=27&price=57&name=Акумулятор TAB Magic 78Ah 750A R+ 189080&quantity=1&art=189080&back_to_shop=/ua/lakb"
+                class="catalog-item__buy">Купить</a>
+
+              <!-- div class="block-images catalog-item__info  info">
+                            <div class="block-images info-inner0">
+                                <div class="block-images info-inner">
+                                    <div class="block-images info-inner1 spoiler-info" style="min-width: 100%;">
+                                        <a href="#" class="credit__link"><strong>Рассрочка от 425 грн/мес</strong></a>
+                                        <br>
+                                        <div class="catalog-item__bank_labels">
+                                            <i class="catalog-item__label label_privat"></i>
+                                            <i class="catalog-item__label label_mono"></i>
+                                            <i class="catalog-item__label label_alfa"></i>
+                                        </div>
+                                        <br>
+                                        <div class="country_year"><img src="/img/flag_tur.png" alt=""> Турция, 2020 год</div>
+                                        <div>&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div -->
+            </div>
+          </div>
+
+        </div>
+        <div class="pagination">
+
+
+          <span class="page-current">1</span>
+          <a class="page-link" href="/ua/lakb?page=2">2</a>
+          <a class="page-link" href="/ua/lakb?page=3">3</a>
+          <a class="page-link" href="/ua/lakb?page=4">4</a>
+          <a class="page-link" href="/ua/lakb?page=5">5</a>
+
+          <a class="page-link page-link_next" href="/ua/lakb?page=2"></a>
+
+          <!--a href="/ua/lakb?page=36">&gt;&gt;</a-->
+        </div>
+
+      </div>
+      <!--/MIDDLE-->
+
+      <script>
+
+        let reloadCarData;
+
+        window.onload = function () {
+
+          // $(document).ready(function(){
+          let index = 1;
+          const catalogLabels = 'Виробник,Модель,Модифікація'.split(',') || [];
+          const catalogHiddens = ''.split(',') || [];
+          const sku = '';
+          const localStoage = window.localStorage;
+          let columns = JSON.parse(localStoage.getItem('car_items')) || [];
+
+          $.get("/catalog/description/16/" + columns.join('|'),
+            function (response) {
+              $(".cars_select_text").text(response.description || '')
+            }, 'json');
+
+
+          $('.car_select_items .items').text(columns.join(',  '));
+          $('.car_select_items .callback_close').click(function (event) {
+            event.preventDefault();
+            localStoage.removeItem('car_items');
+            $("#form_filter_value").find('[name=sku]').remove();
+            $("#form_filter_value .chars_input").remove();
+            $("#form_filter_value").submit();
+          });
+
+          reloadCarData = function (obj) {
+            event.stopPropagation();
+            const step = obj.dataset.step || 0;
+            columns = columns.slice(0, step - 1);
+            $(".selection-step-car").removeClass('active');
+            $(obj).parent().addClass('active');
+            const labelWrappers = document.querySelectorAll('.selection-step__title');
+            // console.log(labelWrappers);
+            document.getElementById('form_search_auto_button').style.display = 'none';
+            labelWrappers.forEach((wrapper, index) => {
+              wrapper.innerText = columns[index] || wrapper.dataset.steptitle;
+            });
+            return false;
+          }
+
+          function initCatalogGroup(catalogLabels) {
+            const container = document.querySelector('#form_search_auto .selection-steps');
+            container.innerHTML = '';
+            let step = 1;
+            for (let label of catalogLabels) {
+              container.innerHTML += `<div class="selection-step-car selection-step ${step === 1 ? 'active' : ''}">
+                                <div class="selection-step__header" data-step="${step}" onclick="reloadCarData(this)">
+                                    <span class="selecion-step__number">${step}</span>
+                                    <span class="selection-step__title" data-steptitle="${label}">${label}</span>
+                                </div>
+                                <div class="selection-step__content">
+                                    <div class="selection-step__checkboxes">
+
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+              step++;
+            }
+          }
+
+          function getSelector(isFirstRun = false) {
+            if (!isFirstRun) $("body").append($("<div id='search-loader'></div>"));
+            $.get("/ua/catalog/result?category=16&columns=" + columns.join('|') + "&index=" + 1, function (response) {
+              $("#search-loader").remove();
+              let result = JSON.parse(response);
+              if (result.type === 'sky' && !isFirstRun) {
+                let hidden = document.createElement('input');
+                hidden.setAttribute('type', 'hidden');
+                hidden.setAttribute('name', 'sku');
+                hidden.setAttribute('value', result.data.join('|'));
+                $("#form_filter_value").append($(hidden));
+
+                let hiddenCatalog = document.createElement('input');
+                hiddenCatalog.setAttribute('type', 'hidden');
+                hiddenCatalog.setAttribute('name', 'hidden_catalog');
+                hiddenCatalog.setAttribute('value', columns.join('|'));
+                $("#form_filter_value").append($(hiddenCatalog));
+                $("#catalog-filters-form").append($(hiddenCatalog));
+
+                $("#form_filter_value").submit();
+                $("body").append($("<div id='search-loader'></div>"));
+                // $("#search-loader").remove();
+                return false;
+              }
+
+              if (isFirstRun && !(result.data.length > 0)) return false;
+              const ul = document.createElement('select');
+              ul.setAttribute('data-index', index + '');
+              // ul.setAttribute('name', 'column[]');
+              $(ul).html(`<option value="" selected>${catalogLabels[index - 1] || 'Choice'}</option>`);
+              for (let model of result.data) {
+                let option = document.createElement('option');
+                option.innerText = model;
+                $(ul).append($(option));
+              }
+              ul.addEventListener('change', function (event) {
+                columns.push(event.target.value);
+                localStoage.setItem('car_items', JSON.stringify(columns));
+                index++;
+                if (columns.length === 0) return false;
+                getSelector();
+              });
+              $("#search-loader").remove();
+              $("#columns_selector").append($(ul));
+            });
+          }
+
+          function getSelectorCar(isFirstRun = false) {
+            const ul = document.getElementsByClassName('selection-step__checkboxes')[columns.length];
+            if (!isFirstRun) $(ul).append($("<div id='search-loader'></div>"));
+            let isLastRequest = false;
+            const prevUl = document.getElementsByClassName('selection-step__title')[columns.length - 1] || null;
+            $.get("/ua/catalog/result?category=16&columns=" + columns.join('|') + "&index=" + 1, function (response) {
+              $("#search-loader").remove();
+              let result = JSON.parse(response);
+              if (prevUl) prevUl.innerText = columns[columns.length - 1];
+              if (result.type === 'sky' && !isFirstRun) {
+                isLastRequest = true;
+                let hidden = document.createElement('input');
+                hidden.setAttribute('type', 'hidden');
+                hidden.setAttribute('name', 'sku');
+                hidden.setAttribute('value', result.data.join('|'));
+                $("#form_filter_value").append($(hidden));
+
+                let hiddenCatalog = document.createElement('input');
+                hiddenCatalog.setAttribute('type', 'hidden');
+                hiddenCatalog.setAttribute('name', 'hidden_catalog');
+                hiddenCatalog.setAttribute('value', columns.join('|'));
+                $("#form_filter_value").append($(hiddenCatalog));
+                $("#catalog-filters-form").append($(hiddenCatalog));
+
+                if (result.data && result.data.length > 0) {
+                  $("#form_search_auto_button").show();
+                } else if (ul) {
+                  ul.innerHTML = 'Немає вариантів';
+                  let curContainer = document.querySelector('.selection-step-car.active');
+                  curContainer.classList.remove('active');
+                  curContainer.nextElementSibling.classList.add('active');
+                }
+
+                //$("#form_filter_value").submit();
+                // $(ul).append($("<div id='search-loader'></div>"));
+                // $("#search-loader").remove();
+                return false;
+              }
+              if (isFirstRun && !(result.data.length > 0)) return false;
+              if (isFirstRun) $('.cars_select_button_block').show();
+              // const ul = document.createElement('select');
+              // ul.setAttribute('data-index', index + '');
+              //$(ul).html(`<option value="" selected>${catalogLabels[index - 1] || 'Choice'}</option>`);
+              if (ul) ul.innerHTML = '';
+              for (let model of (result.data || []).sort()) {
+                // let option = document.createElement('option');
+                // option.innerText = model;
+                if (!ul) continue;
+                ul.innerHTML += `<div class="cell_checkbox size_10 x123">
+                                    <input type="radio"  name="car_brand" value="${model}" class="form__checkbox" id="brand_${model}">
+                                    <label class="checkbox-button checkbox-button_brand" for="brand_${model}">
+                                        <i class="checkbox-button__text value">${model}</i>
+                                    </label>
+                                </div>
+                            `;
+              }
+              if (ul) {
+                ul.querySelectorAll('.value').forEach((wrap) => {
+                  wrap.addEventListener('click', function (event) {
+                    const val = event.target.innerText;
+                    columns.push(val);
+                    localStoage.setItem('car_items', JSON.stringify(columns));
+                    index++;
+                    if (columns.length === 0) return false;
+                    getSelectorCar();
+                  });
+                })
+              }
+
+              if (!isFirstRun) {
+                let curContainer = document.querySelector('.selection-step-car.active');
+                curContainer.classList.remove('active');
+                curContainer.nextElementSibling.classList.add('active');
+              }
+
+              // $("#search-loader").remove();
+              // $("#columns_selector").append($(ul));
+            });
+          }
+
+          $("#form_search_auto_button").click(function () {
+            $("#form_filter_value").submit();
+          });
+
+          $("#clear_form_search_auto").click(function () {
+            localStoage.removeItem('car_items');
+            $("#form_filter_value").find('[name=sku]').remove();
+            $("#form_filter_value").submit();
+          });
+
+          new Promise((resolve) => {
+            initCatalogGroup(catalogLabels);
+            resolve();
+          }).then(() => {
+            getSelectorCar(true);
+          });
+
+          setTimeout(function () {
+            let index0 = 2;
+            if (catalogHiddens.length && false) {
+              let tmp = [];
+              for (let i = 0; i < catalogHiddens.length; i++) {
+                const cat = catalogHiddens[i];
+                tmp.push(cat);
+
+                // if (tmp.length === 1) continue;
+                $.get("/ua/catalog/result?category=16&columns=" + tmp.join('|'), function (response) {
+                  response = JSON.parse(response);
+                  if (response.data) {
+                    if (response.type !== 'column') return false;
+                    const ul = document.createElement('select');
+                    ul.setAttribute('data-index', index + '');
+                    $(ul).html(`<option value="" selected>${catalogLabels[index0 - 1] || 'Choice'}</option>`);
+                    for (let model of response.data) {
+                      let option = document.createElement('option');
+                      option.innerText = model;
+                      if (model === catalogHiddens[i + 1]) {
+                        option.setAttribute('checked', 'checked');
+                        option.setAttribute('selected', 'selected');
+                      }
+                      $(ul).append($(option));
+                    }
+                    ul.setAttribute('disabled', 'disabled');
+                    ul.setAttribute('class', 'disabled');
+                    $("#columns_selector").append($(ul));
+                    index0++;
+                  }
+                });
+              }
+            }
+          }, 1000);
+
+
+
+          $('.catalog-filters-cell [type="checkbox"]:checked').each(function () {
+            const container = $(this).parent().parent().parent();
+            if (container.hasClass('li-switch-closed')) {
+              container.removeClass('li-switch-closed');
+              container.addClass('li-switch-opened');
+            }
+          });
+
+          $('.catalog-filters-cell select :selected').not(':disabled').each(function () {
+            const container = $(this).parent().parent().parent();
+            if (container.hasClass('li-switch-closed')) {
+              container.removeClass('li-switch-closed');
+              container.addClass('li-switch-opened');
+            }
+          });
+
+          $("select.filters-input").on('selectmenuchange', function () {
+            $("body").append($("<div id='search-loader'></div>"));
+
+            $("#catalog-filters-form").submit();
+          });
+
+          $('[type="checkbox"].filters-input').on('click, change', function () {
+            $("body").append($("<div id='search-loader'></div>"));
+
+            $("#catalog-filters-form").submit();
+          });
+
+          $(".wrapper .catalog-filters-br a").click(function () {
+            let val = $(this).data('value');
+            try {
+              $(`[value="${val}"]`)
+                .removeAttr('checked')
+                ;
+            } catch (e) {
+              console.error(e);
+            }
+
+            try {
+              $("option:selected").each(function () {
+                if ($(this).val() == val) {
+                  $(this).parent().remove();
+
+                  return false;
+                }
+              })
+              $(`[value="${val}"]`)
+                .removeAttr('selected')
+                ;
+            } catch (e) {
+              console.error(e);
+            }
+            $("#catalog-filters-form").submit();
+            // $(".catalog-filters-cell input[type=submit]").click();
+
+            return false;
+          });
+          // });
+
+          // Hide Mersades titles
+          // $(".catalog-filters-title").each(function(index){
+          //     if ($(this).text().search('Mercedes') > -1) {
+          //         $(this).addClass('mers-title')
+          //     }
+          // })
+          // $(".mers-title").each(function(index){
+          //     if (index === 0) {
+          //         $(this).text('Mercedes');
+          //     }
+          //     if (index > 0) {
+          //         $(this).hide();
+          //     }
+          //     if (index < $(".mers-title").length - 1) $(this).parent().parent().parent().css("marginBottom", 0);
+          // });
+          // $(".catalog-filters-list").css("opacity", 1);
+        }
+      </script>
+
+    </div>
+    <footer class="site-footer">
+      <div class="footer__about">
+        <div class="footer__logo"><a href="#"><img src="/img/logo_bot.jpg" alt=""></a></div>
+      </div>
+      <i class="footer__mob-nav"></i>
+      <div class="footer-nav">
+        <ul class="footer-nav__list">
+          <li><a href="/ua/article/pro_nas/">Про нас</a></li>
+          <li><a href="/ua/article/dostavka_i_oplata">Доставка і оплата</a></li>
+          <li><a href="/ua/article/harantiya/">Гарантія</a></li>
+          <li><a href="/ua/article/Umovy_obminu_ta_povernennya_tovaru/">Умови обміну та повернення товару</a></li>
+          <li><a href="/ua/article/dogovor_publichnoy_oferti/">Договір публічної оферти.</a></li>
+          <li><a href="/ua/article/servisnyy_tsentr">Сервісний центр</a></li>
+        </ul>
+      </div>
+      <div class="footer__time">
+        <span class="footer__title">График роботи:</span>
+        <p>Пн-Пт: 09:00 - 19:00</p>
+        <p>Сб: 10:00 - 17:00</p>
+        <p>Нд: 10:00 - 15:00 (попередньо дзвоніть)</p>
+      </div>
+      <!--***-->
+      <div class="footer__phones">
+        <span class="footer__title">Служба підтримки:</span>
+        <span class="phone"><a href="tel:(067) 830-30-73">(067) 830-30-73</a></span>
+        <span class="phone"><a href="tel:(095) 830-30-73">(095) 830-30-73</a></span>
+        <span class="phone"><a href="tel:(093) 830-30-73">(093) 830-30-73</a></span>
+      </div>
+      <!--***-->
+      <div class="footer__feedback">
+        <!--**-->
+        <a href="/ua/feedback" class="write-to-us" target="_blank">
+          <i class="write-to-us__ico"></i>Написати нам </a>
+        <!--**-->
+        <div class="footer__social">
+          <span class="footer__title">Ми в соцмережах:</span>
+          <a href="https://www.facebook.com/speedline.news" target="_blank" class="soc__link"><img src="/img/fb-ico.svg"
+              alt=""></a>
+          <a href="https://www.instagram.com/speedlineua/" target="_blank" class="soc__link"><img src="/img/ig-ico.svg"
+              alt=""></a>
+          <a href="https://www.youtube.com/channel/UCG4vJ4l2WU58YFmwaZQ-0iA" target="_blank" class="soc__link"><img
+              src="/img/yt-ico.svg" alt=""></a>
+        </div>
+        <!--**-->
+      </div>
+      <!--***-->
+    </footer>
+    <!--/FOOTER-->
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/js/jquery-ui.min.js"></script>
+  <!--<script src="/js/jquery.ui.touch-punch.min.js"></script>-->
+  <script src="/js/owl.carousel.min.js"></script>
+  <script src="/js/jquery.mcustomscrollbar.js"></script>
+  <script src="/js/remodal.min.js"></script>
+  <script src="/js/jquery.barrating.js"></script>
+  <script src="/js/jquery.pikachoose.min.js"></script>
+  <script src="/js/jquery.maskedinput.js"></script>
+  <script src="/js/jquery.fancybox.min.js"></script>
+  <script src="/js/functions.js"></script>
+  <script>
+    $('#formsearch').submit(function () {
+      $("body").append($("<div id='search-loader'></div>"));
+    });
+  </script>
+  <script src="/js/functions_cars_select.js"></script>
+</body>
+
+</html>
