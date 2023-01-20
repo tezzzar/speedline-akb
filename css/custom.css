@@ -219,7 +219,7 @@ input.search-form__input {
 }
 
 .box_back #slide_window.callback2 {
-  padding-top: 37px;
+  padding-top: 42px;
   background-size: 25%;
   /* background: rgb(231, 83, 41);
   background: -moz-linear-gradient(0deg, rgba(231, 83, 41, 1) 15%, rgba(0, 0, 0, 1) 15%);
@@ -237,4 +237,5 @@ input.search-form__input {
   height: 30px !important;
   bottom: 0;
   background: black !important;
+  line-height: 10px !important;
 }
