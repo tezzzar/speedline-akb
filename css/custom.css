@@ -179,6 +179,10 @@ input.search-form__input {
   .cars_select_button .button_text {
     margin: 0 2px !important;
   }
+
+  .box_back #slide_window.callback2 {
+    background-size: 45% !important;
+  }
 }
 
 @media (max-width: 320px) {
@@ -187,11 +191,21 @@ input.search-form__input {
   }
 }
 
-@media (max-width: 1024px) {
-
+@media (max-width: 1024px) and (min-width: 769px) {
   .cars_select_button .button_text {
     width: calc(100% - 5px) !important;
     margin: 0 2px !important;
+  }
+
+  .box_back #slide_window.callback2 {
+    background-size: 15% !important;
+  }
+
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+  .box_back #slide_window.callback2 {
+    background-size: 20% !important;
   }
 }
 
@@ -202,4 +216,24 @@ input.search-form__input {
 
 .wrapper .catalog-filters-br a {
   background-color: #F2902D;
+}
+
+.box_back #slide_window.callback2 .callback_close {
+  position: absolute !important;
+  top: -54px !important;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  bottom: 0;
+}
+
+.box_back #slide_window.callback2 {
+  padding-top: 50px;
+  background-image: url(../img/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+}
+
+#slide_window .callback_close {
+  background: #F3912D !important;
 }
