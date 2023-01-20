@@ -181,7 +181,7 @@ input.search-form__input {
   }
 
   .box_back #slide_window.callback2 {
-    background-size: 45% !important;
+    background-size: 42% !important;
   }
 }
 
@@ -218,22 +218,23 @@ input.search-form__input {
   background-color: #F2902D;
 }
 
-.box_back #slide_window.callback2 .callback_close {
-  position: absolute !important;
-  top: -54px !important;
-  right: 0;
-  width: 40px;
-  height: 40px;
-  bottom: 0;
+.box_back #slide_window.callback2 {
+  padding-top: 37px;
+  background-size: 25%;
+  /* background: rgb(231, 83, 41);
+  background: -moz-linear-gradient(0deg, rgba(231, 83, 41, 1) 15%, rgba(0, 0, 0, 1) 15%);
+  background: -webkit-linear-gradient(0deg, rgba(231, 83, 41, 1) 15%, rgba(0, 0, 0, 1) 15%); */
+  background: url(../img/logo_small.png) no-repeat, linear-gradient(1deg, rgba(231, 83, 41, 1) 85%, rgba(0, 0, 0, 1) 85%) !important
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e75329", endColorstr="#000000", GradientType=1); */
 }
 
-.box_back #slide_window.callback2 {
-  padding-top: 50px;
-  background-image: url(../img/logo.jpg);
-  background-repeat: no-repeat;
-  background-size: 45%;
-}
 
 #slide_window .callback_close {
-  background: #F3912D !important;
+  position: absolute !important;
+  top: -37px !important;
+  right: 3px !important;
+  width: 30px !important;
+  height: 30px !important;
+  bottom: 0;
+  background: black !important;
 }
