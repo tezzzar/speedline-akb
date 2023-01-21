@@ -385,7 +385,7 @@ input[type=radio]:checked + .radio__label {
 }
 
 input[type=radio]:checked + .radio__label:after {
-  background: #85cb42;
+  background: #f2902d;
 }
 
 .checkbox__label {
@@ -426,7 +426,7 @@ input[type=checkbox]:checked + .checkbox__label {
 }
 
 input[type=checkbox]:checked + .checkbox__label:before {
-  background: url(../img/checked.svg) center center no-repeat;
+  background: url(../img/checked.png) center center no-repeat;
   background-size: 18px;
 }
 
@@ -437,7 +437,7 @@ input[type=radio]:checked + .checkbox__label.checkbox_small {
 
 input[type=checkbox]:checked + .checkbox__label.checkbox_small:before,
 input[type=radio]:checked + .checkbox__label.checkbox_small:before {
-  background: url(../img/checked.svg) center center no-repeat;
+  background: url(../img/checked.png) center center no-repeat;
   background-size: 12px;
 }
 
