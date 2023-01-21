@@ -1290,8 +1290,7 @@ button {
 }
 
 .footer__copyrights {
-  float: right;
-  width: 50%;
+  text-align: end;
   padding-left: 15px;
 }
 
